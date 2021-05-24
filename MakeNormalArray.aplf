@@ -1,0 +1,8 @@
+ MakeNormalArray←{
+     ⍝ ⍵ is the shape of the array
+     U1←?⍵⍴0
+     U2←?⍵⍴0
+     s←(¯2×⍟U1)*0.5
+     c←2○2×○U2
+     c×s
+ }
