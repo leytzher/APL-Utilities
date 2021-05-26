@@ -1,0 +1,4 @@
+ LeakyReLU←{
+     ⍝ ⍵ is the argument of the function, ⍺ is the leaky parameter
+     (0⌈⍵)+⍺×0⌊⍵
+ }
