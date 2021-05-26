@@ -1,0 +1,6 @@
+ InitWeightsMatrices←{
+     ⍝ ⍵ is the shape of the network.
+     ⍝ Returns a vector of weight matrices
+     matrices←MakeNormalArray¨2,⍨/⍵
+     matrices÷0.5*⍨2×/⍵
+ }

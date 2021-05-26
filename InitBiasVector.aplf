@@ -1,0 +1,7 @@
+ InitBiasVector←{
+     ⍝ ⍵ is the shape of the network
+     ⍝ Returns a vector of bias vectors
+     ⍝ we need to divide each number by the sqrt of the number of elements to normalize the vectors
+     shape←1↓⍵
+     (shape*0.5)÷⍨⍪∘MakeNormalArray¨shape
+ }
