@@ -1,3 +1,3 @@
-# Simple Neural Network in APL
+# Simple Utilities in APL 
 
-Learning APL by implementing a Neural network. 
+Implementing simple functions to learn APL.
