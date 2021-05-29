@@ -1,0 +1,3 @@
+ isPrime←{
+ ⍝ Check if  a number is prime or not.
+     2=+/0=(⍳⍵)|⍵}
